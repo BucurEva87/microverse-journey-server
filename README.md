@@ -113,7 +113,7 @@ To run the project, execute the following command:
 This project uses RSpec testing. To run tests, run the following command:
 
 ```sh
-  rspec spec ./
+  bundle exec rspec
 ```
 
 <!-- ### Deployment
