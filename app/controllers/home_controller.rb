@@ -1,5 +1,5 @@
 class HomeController < ApplicationController
 	def index
-		render json: { api_version: 1, api_author: 'Eva-Lavinia Bucur' }, status: :ok
+		render json: { version: 1, author: 'Eva-Lavinia Bucur' }
 	end
 end
