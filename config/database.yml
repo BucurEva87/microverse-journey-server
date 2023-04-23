@@ -82,5 +82,5 @@ test:
 production:
   <<: *default
   database: microverse_journey_production
-  username: microverse_journey
-  password: <%= ENV["MICROVERSE_JOURNEY_DATABASE_PASSWORD"] %>
+  # username: microverse_journey
+  # password: <%= ENV["MICROVERSE_JOURNEY_DATABASE_PASSWORD"] %>
